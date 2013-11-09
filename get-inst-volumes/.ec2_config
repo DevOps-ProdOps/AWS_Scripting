@@ -1,0 +1,25 @@
+# Copyright 2013, Ascendant Technology, LLC
+#
+# Created 2013-03-12 by Ramkumar Kuppuchamy <ramkumar.kuppuchamy@atech.com>
+#
+# Description:
+# Sets the required properties for the EC2 Scripting. Configuration file for the EC2 Scripts
+#
+# Change Log: (Put in order from newest to oldest)
+#  03/27/2013 <Ramkumar Kuppuchamy <ramkumar.kuppuchamy@atech.com>
+#   - Keys are changed from .pem to access keys.
+
+#Not using the .pem file for authentication
+
+#EC2_PK=/home/ramkumar/keys/pk-awsmaster.pem
+#EC2_CERT=/home/ramkumar/keys/cert-awsmaster.pem
+
+EC2_ACCESS_KEY=AKIAJE7MJXFL2KQVD5EA
+EC2_SECRET_KEY=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
+EC2_HOME=/opt/app/ec2-api-tools-1.6.6.4/
+JAVA_HOME=/usr/lib/jvm/jre-openjdk
+
+# $PATH Environment Variables need to be set to execute the EC2 API commands
+
+PATH=$PATH:$EC2_HOME/bin:$JAVA_HOME/bin
+
