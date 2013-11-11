@@ -14,8 +14,8 @@
 #EC2_PK=/home/ramkumar/keys/pk-awsmaster.pem
 #EC2_CERT=/home/ramkumar/keys/cert-awsmaster.pem
 
-EC2_ACCESS_KEY=AKIAJE7MJXFL2KQVD5EA
-EC2_SECRET_KEY=wqnrMthYc3WPlF5Y9TaUFcqyjYpTk+8q4NKyWsGU
+EC2_ACCESS_KEY=<Input your  AWS Account Access Key>
+EC2_SECRET_KEY=<Input your AWS Account Secret Key>
 EC2_HOME=/opt/app/ec2-api-tools-1.6.6.4/
 JAVA_HOME=/usr/lib/jvm/jre-openjdk
 
